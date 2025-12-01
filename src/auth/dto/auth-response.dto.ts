@@ -5,7 +5,7 @@ export class AuthResponseDto {
   refreshToken: string;
 
   encryptedMasterKey?: string | null;
-  encryptionSalt?: string | null;
+  salt?: string | null;
   encryptedProfile?: string | null;
   role: UserRole;
 }
