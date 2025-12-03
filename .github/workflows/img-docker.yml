@@ -11,10 +11,7 @@ permissions:
 
 jobs:
   tags:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest]
+    runs-on: ubuntu-latest
 
     outputs:
       new_tag: ${{ steps.newtag.outputs.tag }}
