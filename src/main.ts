@@ -9,6 +9,6 @@ if (!(global as any).crypto) {
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(process.env.PORT ?? 5500);
+  await app.listen(process.env.SERVER_PORT ?? 3000);
 }
 bootstrap();
