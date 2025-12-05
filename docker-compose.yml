@@ -13,7 +13,7 @@ services:
     networks:
       - psy2bib-network
     env_file:
-      - .env.docker
+      - .env
 
   backend:
     build:
@@ -22,7 +22,7 @@ services:
     image: psy2bib-backend:dev
     container_name: psy2bib-backend
     env_file:
-      - .env.docker
+      - .env
     ports:
       - "${PORT}:${PORT}"
     depends_on:
