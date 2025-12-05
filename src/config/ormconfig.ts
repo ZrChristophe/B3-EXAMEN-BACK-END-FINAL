@@ -14,4 +14,5 @@ export const getTypeOrmConfig = (
   entities: [User],
   synchronize: true,
   logging: true,
+  ssl: true,
 });
