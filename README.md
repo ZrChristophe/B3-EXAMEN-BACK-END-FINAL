@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <a href="https://github.com/Psy2Bib" target="_blank"><img src="https://img.shields.io/badge/npm-v11.6.4-blue" alt="NPM Version" /></a>
   <a href="https://github.com/Psy2Bib" target="_blank"><img src="https://img.shields.io/badge/node-25.2.1-blue" alt="NODE Version" /></a>
